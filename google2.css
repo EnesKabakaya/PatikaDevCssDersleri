@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+nav div a {
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+}
+
+nav div .sign {
+    background-color: #4584ef;
+    padding: 10px 30px;
+    color: #fff;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 250px;
+    margin-left: 800px;
+}
+
+section img {
+    width: 300px;
+    margin-left: 50px;
+}
+
+section input {
+    width: 400px;
+    margin-top: 50px;
+    height: 40px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid black;
+    padding-left: 20px;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+article a {
+    text-decoration: none;
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    margin-left: 10px;
+    color: #111;
+}
